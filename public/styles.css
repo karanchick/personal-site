@@ -634,6 +634,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .content-center {
   align-content: center;
 }
@@ -702,6 +706,10 @@ video {
   background-color: rgb(252 231 243 / var(--tw-bg-opacity));
 }
 
+.clear-both {
+  clear: both;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -750,6 +758,22 @@ video {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
 }
 
 .py-10 {
@@ -858,17 +882,6 @@ video {
   font-weight: 700;
 }
 
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
 
 @media (min-width: 768px) {
   .md\:block {
@@ -877,5 +890,9 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:hdvh {
+    height: 100dvh;
   }
 }
