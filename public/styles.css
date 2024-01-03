@@ -826,9 +826,14 @@ video {
   text-transform: uppercase;
 }
 
-.text-pink-900 {
+.text-pink-300 {
   --tw-text-opacity: 1;
-  color: rgb(131 24 67 / var(--tw-text-opacity));
+  color: rgb(249 168 212 / var(--tw-text-opacity));
+}
+
+.text-pink-200 {
+  --tw-text-opacity: 1;
+  color: rgb(251 207 232 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -895,4 +900,16 @@ video {
   .md\:hdvh {
     height: 100dvh;
   }
+
+  .md\:text4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  
 }
